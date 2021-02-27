@@ -1,0 +1,44 @@
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/bg.jpg");
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+}
+
+.formRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.formLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 470px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.title {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: white;
+}

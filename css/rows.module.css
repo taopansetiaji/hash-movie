@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+}
+
+.scroll {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 0 10px;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  display: inline-block;
+  transition: 450ms;
+  padding: 10px 10px;
+}
+
+.slide:hover {
+  transform: scale(1.08);
+}
+
+.image {
+  object-fit: contain;
+  width: 200px;
+  cursor: pointer;
+}
+
+.name {
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+.title {
+  padding-left: 20px;
+  padding-top: 15px;
+  color: white;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+}
+
+.ytContainer {
+  width: 70%;
+}
+
+.descContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desc {
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+.btn {
+  width: 200px;
+  margin-top: 30px;
+  background: #f00;
+  color: white;
+  border: none;
+  transition: all ease-in-out 350ms;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
